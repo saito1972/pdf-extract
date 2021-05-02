@@ -1727,9 +1727,7 @@ public class PDFExtract {
 				if (_hashSentenceJoin.containsKey(lang)) {
 					sj = _hashSentenceJoin.get(lang);
 					// Fix issue #57 Sentence join fails when using a batch file: Set last execute time.
-					if (null != sj) {
-						sj.get_registerid().add(uuid);
-					}
+					sj.get_registerid().add(uuid);
 				} else {
 
 					String scriptPath = config.getSentenceJoinScript();
@@ -1790,7 +1788,7 @@ public class PDFExtract {
 			}
 
 		} catch (Exception e) {
-			common.print("ERROR\tsentenceJoin: " +  e.getMessage());
+			common.print(e.getMessage());
 		}
 
 		return texts;
