@@ -1,0 +1,294 @@
+repo_name: saito1972/pdf-extract
+report_id: 1ed5dbeb9ebfdfc58a0bd51ebddbf9be
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-06T10:12:49+00:00'
+requested_by: saito1972
+provider: github
+branch: master
+detected_tools_count: 18
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  version: '1.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/saito1972/pdf-extract/blob/master/pom.xml
+  detection_source: Repo Metadata
+  last_updated_by: administrator
+  last_updated_on: 2020-02-21 11:44:34.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/saito1972/pdf-extract
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/saito1972/pdf-extract
+  detection_source: Repo Metadata
+- name: guava
+  description: Google Core Libraries for Java 6+
+  website_url: https://github.com/google/guava
+  version: 24.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/2970/wBjKn0ol.png
+  detection_source_url: https://github.com/saito1972/pdf-extract/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: administrator
+  last_updated_on: 2020-02-21 11:44:34.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/saito1972/pdf-extract
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/saito1972/pdf-extract/blob/master/.github/workflows/compile.yml
+  detection_source: ".github/workflows/compile.yml"
+  last_updated_by: Amir Kamran
+  last_updated_on: 2020-02-28 14:53:57.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/saito1972/pdf-extract
+  detection_source: Repo Metadata
+- name: com.google.guava:guava
+  description: Guava is a suite of core and expanded libraries that include utility
+    classes
+  version: 24.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/saito1972/pdf-extract/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Amir Kamran
+  last_updated_on: 2020-03-08 14:06:00.000000000 Z
+  vulnerabilities:
+  - name: Guava vulnerable to insecure use of temporary directory
+    cve_id: CVE-2023-2976
+    cve_url: https://github.com/advisories/GHSA-7g45-4rm6-3mm3
+    detected_date: Jun 15
+    severity: moderate
+    first_patched: 32.0.0-android
+  - name: Information Disclosure in Guava
+    cve_id: CVE-2020-8908
+    cve_url: https://github.com/advisories/GHSA-5mg8-w23w-74h3
+    detected_date: Aug 22
+    severity: low
+    first_patched: 32.0.0-android
+- name: org.bouncycastle:bcprov-jdk15on
+  description: The Bouncy Castle Crypto package is a Java implementation of cryptographic
+    algorithms
+  version: '1.64'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/saito1972/pdf-extract/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Amir Kamran
+  last_updated_on: 2020-03-08 14:06:00.000000000 Z
+  vulnerabilities:
+  - name: Bouncy Castle crafted signature and public key can be used to trigger an
+      infinite loop
+    cve_id: CVE-2024-30172
+    cve_url: https://github.com/advisories/GHSA-m44j-cfrm-g8qc
+    detected_date: May 15
+    severity: moderate
+    first_patched: '1.78'
+  - name: Bouncy Castle Denial of Service (DoS)
+    cve_id: CVE-2023-33202
+    cve_url: https://github.com/advisories/GHSA-wjxj-5m7g-mg7q
+    detected_date: Mar 15
+    severity: moderate
+    first_patched:
+  - name: Bouncy Castle For Java LDAP injection vulnerability
+    cve_id: CVE-2023-33201
+    cve_url: https://github.com/advisories/GHSA-hr8g-6v94-x4m9
+    detected_date: Sep 6
+    severity: moderate
+    first_patched:
+  - name: Bouncy Castle certificate parsing issues cause high CPU usage during parameter
+      evaluation.
+    cve_id: CVE-2024-29857
+    cve_url: https://github.com/advisories/GHSA-8xfc-gm6g-vgpv
+    detected_date: May 15
+    severity: moderate
+    first_patched: '1.78'
+  - name: Timing based private key exposure in Bouncy Castle
+    cve_id: CVE-2020-15522
+    cve_url: https://github.com/advisories/GHSA-6xx3-rg99-gc3p
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: '1.66'
+  - name: Bouncy Castle affected by timing side-channel for RSA key exchange ("The
+      Marvin Attack")
+    cve_id: CVE-2024-30171
+    cve_url: https://github.com/advisories/GHSA-v435-xc8x-wvr9
+    detected_date: May 15
+    severity: moderate
+    first_patched: '1.78'
+- name: com.itextpdf:itextpdf
+  description: IText, a free Java-PDF library
+  version: 5.5.13
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/saito1972/pdf-extract/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Amir Kamran
+  last_updated_on: 2020-03-08 14:06:00.000000000 Z
+- name: commons-beanutils:commons-beanutils
+  description: Apache Commons BeanUtils provides an easy-to-use but flexible wrapper
+    around reflection and introspection
+  version: 1.9.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/saito1972/pdf-extract/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: administrator
+  last_updated_on: 2020-02-21 11:44:34.000000000 Z
+- name: commons-collections:commons-collections
+  description: Types that extend and augment the Java Collections Framework
+  version: 3.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/saito1972/pdf-extract/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: administrator
+  last_updated_on: 2020-02-21 11:44:34.000000000 Z
+- name: commons-io:commons-io
+  description: The Apache Commons IO library contains utility classes
+  version: 2.8.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/saito1972/pdf-extract/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: administrator
+  last_updated_on: 2020-02-21 11:44:34.000000000 Z
+- name: commons-lang:commons-lang
+  description: Commons Lang
+  version: '2.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/saito1972/pdf-extract/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: administrator
+  last_updated_on: 2020-02-21 11:44:34.000000000 Z
+- name: commons-logging:commons-logging
+  description: Apache Commons Logging is a thin adapter allowing configurable bridging
+    to other
+  version: '1.2'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/saito1972/pdf-extract/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: administrator
+  last_updated_on: 2020-02-21 11:44:34.000000000 Z
+- name: net.sf.ezmorph:ezmorph
+  description: Simple java library for transforming an Object to another Object
+  version: 1.0.6
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/saito1972/pdf-extract/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: administrator
+  last_updated_on: 2020-02-21 11:44:34.000000000 Z
+- name: net.sf.json-lib:json-lib
+  description: Java library for transforming beans
+  version: '2.4'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/saito1972/pdf-extract/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Amir Kamran
+  last_updated_on: 2020-02-28 14:48:12.000000000 Z
+- name: org.bouncycastle:bcpkix-jdk15on
+  description: The Bouncy Castle Java APIs for CMS, PKCS, EAC, TSP, CMP, CRMF, OCSP,
+    and certificate generation
+  version: '1.64'
+  license: LAL-1.3
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/saito1972/pdf-extract/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Amir Kamran
+  last_updated_on: 2020-03-08 14:06:00.000000000 Z
